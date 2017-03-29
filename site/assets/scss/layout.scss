@@ -1,0 +1,49 @@
+// @import 'reset';
+@import 'var';
+@import 'grid';
+@import 'forms';
+@import 'content';
+@import 'sidebar';
+@import 'header';
+@import 'desktop-nav';
+@import 'mobile-nav';
+@import 'footer';
+
+body{
+	
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #333;
+}
+
+.container{
+	position: relative;
+	max-width: 1300px;
+	width: 100%;
+	padding: 0 10px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	&:after{ @include clearFix;}
+}
+
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*/////////// page template 01 /////////*/
+
+#content-box{
+	position: relative;
+	min-height: 700px;
+	.content-bgbar{
+		width: 100%;
+		height: 250px;
+		background: $green;
+	}
+	.content-inner{
+		margin-top: -160px;
+		
+	}
+}

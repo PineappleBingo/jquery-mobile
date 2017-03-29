@@ -1,0 +1,141 @@
+// @import 'reset';
+@import 'var';
+@import 'grid';
+
+.content-box{
+	position: relative;
+	//background: #333;
+	a{
+		color: #333;
+	}
+	.page{
+		margin-bottom: 40px;
+		// border: 1px solid;
+			&:after{ @include clearFix;}
+	}
+
+	.page-content{
+		float: left;
+		
+	}
+}
+
+.slider-wrapper{
+	// display: block;
+	// width: 100%;
+	// max-height: 642px;
+	// height: 100%;
+	// box-sizing: border-box;
+	position: relative;
+	// border: 1px solid $white;
+	background-color: #ccc;
+}
+
+.hotspots-wrapper{
+		
+	h2{
+		text-align: center;
+	}
+}
+
+.slider{
+	display: block;
+	min-height: 250px;
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/slider-img-01.JPG);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center -35vh;
+	background-attachment: fixed;
+	// background-position: center center;
+	// background-position:100px 20px;
+	background-size: cover;
+	// weight: 200vw;
+	// height: 200vh;
+
+
+	border: none;
+	@media only screen and (min-width: 600px){
+		//background-position: 50% 90%;
+		min-height: 600px;
+		
+		//border: 3px solid #f00;
+	}
+	
+	a{
+		position: absolute;
+		bottom: 10%;
+		right: 50%;
+		padding: 8px 12px;
+		border-radius: 10px;
+		text-transform: uppercase;
+		text-decoration: none;
+		color: $white;
+		background: $green;
+		&:hover{
+			background: $greenshade;
+		}
+	}
+
+} // temp.
+
+
+.upcomming-event, .news{
+	img{
+		display: block;
+		float: left;
+		max-width: 200px;
+		width: 100%;
+		// height: auto;
+		height: 150px;
+		background: #ff0;
+		margin-right: 20px;
+	}
+}
+
+.how-to-join{
+	position: relative;
+	display: block;
+	// border: 1px solid #ff0;
+	min-height: 500px;
+	background: #ccc;
+	background-image: url(../img/contact-us-gray-faded.png); 
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center right;
+	.container{
+		min-height: 500px;
+	}
+	.invitation{
+		display: block;
+		width: 100%;
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+  		-ms-transform: translateY(-50%);
+  		transform: translateY(-50%);
+	}
+	h1{
+		color: $white;
+		&:hover{
+			color: #666;
+		}
+	}
+}
+
+.sign-up-button{
+	text-transform: uppercase;
+	text-decoration: none;
+	display: block;
+	width: 95px;
+	border-box: box-sizing;
+	border-radius: 10px;
+	padding: 8px 10px;
+	margin-top: 40px;
+	color: $white;
+	background: $green;
+	&:hover{
+		background: $greenshade;
+	}
+}

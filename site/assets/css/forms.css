@@ -1,0 +1,144 @@
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+/*  SECTIONS  */
+.section {
+  clear: both;
+  padding: 0px;
+  margin: 0px; }
+
+/*  COLUMN SETUP  */
+.col {
+  display: block;
+  float: left;
+  margin: 1% 0 1% 1.6%; }
+
+.col:first-child {
+  margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after {
+  content: "";
+  display: table; }
+
+.group:after {
+  clear: both; }
+
+.group {
+  zoom: 1;
+  /* For IE 6/7 */ }
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+  width: 100%; }
+
+.span_3_of_4 {
+  width: 74.6%; }
+
+.span_2_of_4 {
+  width: 49.2%; }
+
+.span_1_of_4 {
+  width: 23.8%; }
+
+/*  GRID OF THREE  */
+.span_3_of_3 {
+  width: 100%; }
+
+.span_2_of_3 {
+  width: 66.13%; }
+
+.span_1_of_3 {
+  width: 32.26%; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 980px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+  .span_3_of_3, .span_2_of_3, .span_1_of_3 {
+    width: 100%; } }
+
+/*  GO FULL WIDTH BELOW 500 PIXELS */
+@media only screen and (max-width: 770px) {
+  .col {
+    margin: 0 0 0 0%; }
+  .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 {
+    width: 100%; } }
+
+.span_6_of_6 {
+  width: 100%;
+  box-sizing: border-box; }
+
+.span_5_of_6 {
+  width: 83.06%;
+  box-sizing: border-box; }
+
+.span_4_of_6 {
+  width: 66.13%;
+  box-sizing: border-box; }
+
+.span_3_of_6 {
+  width: 49.2%;
+  box-sizing: border-box; }
+
+.span_2_of_6 {
+  width: 32.26%;
+  box-sizing: border-box; }
+
+.span_1_of_6 {
+  width: 15.33%;
+  box-sizing: border-box; }
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+  .col {
+    margin: 1% 0 1% 0%; }
+  .span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 {
+    width: 100%;
+    box-sizing: border-box; } }
+
+.sign-up-wrapper {
+  background: #33cc33;
+  padding: 10px; }
+
+.newsletter-sign-up-forms {
+  margin: 0;
+  padding: 0; }
+  .newsletter-sign-up-forms dt {
+    display: block;
+    padding: 5px;
+    float: left;
+    clear: left;
+    width: 70px;
+    margin-right: 5px;
+    text-align: right !important; }
+  .newsletter-sign-up-forms dd {
+    display: block;
+    margin: 3px 0; }
+  .newsletter-sign-up-forms input[type="text"] {
+    border: 1px solid #ccc;
+    padding: 5px; }
+  .newsletter-sign-up-forms span {
+    display: inline-block; }

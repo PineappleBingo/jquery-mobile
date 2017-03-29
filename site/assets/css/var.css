@@ -1,0 +1,11 @@
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }

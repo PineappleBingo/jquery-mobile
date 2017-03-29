@@ -1,0 +1,219 @@
+/*/Numbers and colors/*/
+/*/////Variables//////*/
+/*/////Mixins//////*/
+/*////Mixin With Arguments////*/
+/*////Call Out A Mixin////*/
+.clear_fix {
+  content: '.';
+  display: block;
+  clear: both;
+  height: 0;
+  visibility: hidden; }
+
+.footer-bg {
+  display: block;
+  box-sizing: border-box;
+  padding-top: 50px;
+  position: relative;
+  background: #333;
+  min-height: 300px;
+  border-top: 20px solid #33cc33;
+  color: #666 !important; }
+  .footer-bg a {
+    text-decoration: none;
+    color: #666; }
+    .footer-bg a:hover {
+      color: #fff; }
+  .footer-bg:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+.footer {
+  color: #999;
+  min-height: 300px;
+  width: 100%; }
+
+.partners {
+  margin: 20px auto;
+  padding: 15px;
+  text-align: center; }
+  .partners img {
+    display: inline-block;
+    margin: 10px;
+    background: #ff0;
+    width: 150px;
+    height: 80px; }
+
+.footer-column-one {
+  min-height: 300px; }
+
+.footer-column-two {
+  background: #333333;
+  min-height: 300px; }
+
+.footer-column-three {
+  text-align: right;
+  min-height: 300px; }
+
+.footer-logo {
+  width: 250px;
+  height: 55px;
+  display: block;
+  margin-top: 10px;
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: 0px -264px;
+  background-size: 500px; }
+
+dl.footer-address {
+  list-style: none; }
+  dl.footer-address dt {
+    float: left;
+    clear: left;
+    width: 25px;
+    margin-right: 5px; }
+    dl.footer-address dt i {
+      display: block;
+      width: 25px;
+      text-indent: -2500em;
+      background: #000; }
+    dl.footer-address dt:after {
+      content: '.';
+      display: block;
+      clear: both;
+      height: 0;
+      visibility: hidden; }
+  dl.footer-address dd {
+    margin-bottom: 3px; }
+
+.credential {
+  width: 253px; }
+
+.social-wrapper {
+  width: 350px;
+  margin: 0 auto; }
+
+.social-wrapper span {
+  display: bottom;
+  margin-bottom: 10px; }
+
+.social-media ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  .social-media ul li {
+    display: inline-block;
+    float: left;
+    margin: 5px; }
+  .social-media ul:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden; }
+
+.facebook-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: 0px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .facebook-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: 0px -440px;
+    background-size: 500px; }
+
+.twitter-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -69px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .twitter-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -69px -440px;
+    background-size: 500px; }
+
+.googleplus-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -138px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .googleplus-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -138px -440px;
+    background-size: 500px; }
+
+.youtube-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -209px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .youtube-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -209px -440px;
+    background-size: 500px; }
+
+.instagram-icon {
+  display: block;
+  overflow: hidden;
+  text-indent: -2000em;
+  background-image: url(../img/sprites.png);
+  background-repeat: none;
+  background-position: -279px -380px;
+  background-size: 500px;
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px; }
+  .instagram-icon:hover {
+    display: block;
+    overflow: hidden;
+    text-indent: -2000em;
+    background-image: url(../img/sprites.png);
+    background-repeat: none;
+    background-position: -279px -440px;
+    background-size: 500px; }
